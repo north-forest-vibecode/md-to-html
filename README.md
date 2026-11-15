@@ -62,8 +62,8 @@ The project follows the **"everything in one folder"** principle: the script sca
 **1. Clone the repository:**
 
 ```bash
-git clone https://github.com/USERNAME/simple-md-to-html.git
-cd simple-md-to-html
+git clone https://github.com/north-forest-vibecode/md-to-html.git
+cd md-to-html
 ```
 
 **2. Put your `.md` files next to the script:**
@@ -177,7 +177,7 @@ The project is intentionally simple, so some GFM features are not implemented:
 
 ```
 .
-├── converter.py     # the entire converter
+├── md_to_html.py     # the entire converter
 ├── README.md        # English documentation
 ├── README.ru.md     # Russian documentation
 ├── example.md       # demo document
