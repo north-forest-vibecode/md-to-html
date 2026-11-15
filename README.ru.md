@@ -69,8 +69,8 @@ cd md-to-html
 **2. Положи свои `.md` файлы в папку со скриптом:**
 
 ```
-simple-md-to-html/
-├── converter.py
+md-to-html/
+├── md_to_html.py
 ├── my-notes.md
 └── documentation.md
 ```
@@ -78,10 +78,10 @@ simple-md-to-html/
 **3. Запусти:**
 
 ```bash
-python converter.py
+python md_to_html.py
 ```
 
-На Windows также работает `py converter.py` или обычный двойной клик по файлу.
+На Windows также работает `py md_to_html.py` или обычный двойной клик по файлу.
 
 **4. Введи номер файла** — рядом появится `my-notes.html`. Открывай в браузере.
 
