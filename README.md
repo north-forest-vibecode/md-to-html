@@ -89,7 +89,7 @@ On Windows, `py md_to_html.py` works too, as does a plain double-click on the fi
 
 ## Usage Example
 
-> The CLI currently prints messages in Russian. English localization is on the roadmap.
+> The CLI currently prints messages in Russian and English.
 
 ```text
 === Simple MD to HTML Converter ===
@@ -247,7 +247,7 @@ That is by design: raw HTML is escaped for safety.
 - [ ] Syntax highlighting in code blocks
 - [ ] Batch conversion of all files at once
 - [ ] Command-line arguments (`--input`, `--output`)
-- [ ] English CLI localization
+- [x] English CLI localization
 - [ ] Dark theme
 
 ---
